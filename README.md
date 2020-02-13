@@ -1,6 +1,6 @@
 ## readme
 
-This repo contains the code for training starmap with dropout
+This repo contains the code for training starmap with dropout, used in OrcVIO.
 
 ### modification to add dropout layer
 
