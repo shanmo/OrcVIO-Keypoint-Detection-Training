@@ -4,7 +4,7 @@ This repo contains the code for training starmap with dropout, used in OrcVIO.
 
 ### modification to add dropout layer
 
-The following code is changed to add dropout layers
+The following code in `lib/models/hg.py` is changed to add dropout layers
 
 ```
 """no dropout"""
