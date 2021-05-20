@@ -15,3 +15,7 @@ The following code in `lib/models/hg.py` is changed to add dropout layers
 lin = nn.Sequential(nn.Conv2d(self.nFeats, self.nFeats, bias = True, kernel_size = 1, stride = 1),
                     nn.BatchNorm2d(self.nFeats), self.relu, nn.Dropout(0.5))
 ```
+
+### reference 
+
+- https://github.com/xingyizhou/StarMap
